@@ -16,7 +16,6 @@ public class ClientParameters
     public int BrokerPort { get; set; }
 
     [Option("cleanSession", Required = false, HelpText = "Indicates if the session will be clean or persistent")]
-
     public bool CleanSession { get; set; }
 
     [Option("keepAlive", Required = false,
@@ -24,7 +23,6 @@ public class ClientParameters
     public int KeepAlive { get; set; }
 
     [Option("ssl", Required = false, HelpText = "Indicates the use of SSL", Default = false)]
-
     public bool SSL { get; set; }
 
     [Option("username", Required = true, HelpText = "Username for authenticating with the broker")]
