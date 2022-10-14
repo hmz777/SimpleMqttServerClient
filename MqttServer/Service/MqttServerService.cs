@@ -19,6 +19,7 @@ internal class MqttServerService : IMqttService
             var mqttServerOptions = serverFactory
                 .CreateServerOptionsBuilder()
                 .WithDefaultEndpoint()
+                .WithPersistentSessions()
                 .Build();
 
             _mqttServer = serverFactory.CreateMqttServer(mqttServerOptions);
