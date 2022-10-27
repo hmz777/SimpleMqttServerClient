@@ -432,3 +432,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.idea/.idea.MQTTPaperProject.dir/.idea/encodings.xml
+.idea/.idea.MQTTPaperProject.dir/.idea/indexLayout.xml
+.idea/.idea.MQTTPaperProject.dir/.idea/vcs.xml
