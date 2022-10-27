@@ -36,7 +36,7 @@ public class MqttLogger : IMqttNetLogger
 #if DEBUG
                 Log.Error(exception, "Exception occured in MQTT service");
 #else
-                Log.Error("Exception occured in MQTT service, with error message:{Message}", e.Message);
+                Log.Error("Exception occured in MQTT service, with error message:{Message}", exception.Message);
 #endif
             }
         }
